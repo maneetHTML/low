@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Now Amazing Webpage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://kit.fontawesome.com/193dced9e7.js" crossorigin="anonymous"></script>
+    <style>
+
+
+        .vertical-slider .slick-current .box-wrap .line {
+            display: block;
+        }
+
+        .vertical-slider .box-wrap:before {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border: solid 1px black;
+            border-radius: 50%;
+            left: 0;
+        }
+
+        .vertical-slider .box-wrap:after {
+            content: '';
+            position: absolute;
+            width: 2px;
+            height: 100px;
+            background-color: black;
+            left: 8px;
+            top: 30px;
+        }
+
+
+        .vertical-container {
+            background-color: lightgray;
+            padding: 40px;
+        }
+
+        .vertical-slider .box-wrap {
+            padding-left: 40px;
+            padding-bottom: 100px;
+            position: relative;
+        }
+
+        .vertical-slider .box-wrap .line {
+            position: absolute;
+            width: 2px;
+            height: 50px;
+            background-color: white;
+            left: 8px;
+            top: 30px;
+            z-index: 1;
+            display: none;
+        }
+
+        .vertical-slider .slick-current .box-wrap .line {
+            display: block;
+        }
+
+        .vertical-slider .box-wrap:before {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border: solid 1px black;
+            border-radius: 50%;
+            left: 0;
+        }
+
+        .vertical-slider .box-wrap:after {
+            content: '';
+            position: absolute;
+            width: 2px;
+            height: 100px;
+            background-color: black;
+            left: 8px;
+            top: 30px;
+        }
+
+    
+    </style>
+</head>
+
+<body>
+   
+
+
+
+
+    <section class="vertical-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="vertical-slider">
+                        <!-- start of 1st slide -->
+                        <div>
+                            <div class="box-wrap">
+                                <div class="line"></div>
+                                <h3>Create your route</h3>
+                                <p>Enter your pickup & dropoff locations or the number of hours you wish to book a car
+                                    and driver for</p>
+                            </div>
+                        </div>
+                        <!-- end of 1st slide -->
+                        <div>
+                            <div class="box-wrap">
+                                <div class="line"></div>
+                                <h3>Create your route 1</h3>
+                                <p>Enter your pickup & dropoff locations or the number of hours you wish to book a car
+                                    and driver for</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="box-wrap">
+                                <div class="line"></div>
+                                <h3>Create your route 3</h3>
+                                <p>Enter your pickup & dropoff locations or the number of hours you wish to book a car
+                                    and driver for</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="vertical-slider-images">
+                        <div>
+                            <img src="https://png.pngtree.com/thumb_back/fh260/background/20211031/pngtree-abstract-bg-image_914283.png"
+                                alt="">
+                        </div>
+                        <div>
+                            <img src="https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg"
+                                alt="">
+                        </div>
+                        <div>
+                            <img src="https://img.freepik.com/free-vector/realistic-neon-lights-background_23-2148907367.jpg"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script type="text/javascript">
+      
+            $(document).ready(function () {
+                $('.vertical-slider').slick({
+                    infinite: true,
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    vertical: true,
+                    dots: true
+                });
+            });
+
+
+            $('.vertical-slider').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                vertical: true,
+                dots: true
+            });
+            $('.vertical-slider-images').slick({
+                infinite: true,
+
+            });
+
+            $('.vertical-slider').on('click', '.slick-slide', function () {
+                var index = $(this).index();
+                $('.vertical-slider').slick('slickGoTo', index);
+                $('.vertical-slider-images').slick('slickGoTo', index);
+            });
+
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>
